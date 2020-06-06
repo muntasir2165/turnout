@@ -13,3 +13,7 @@ const firebaseConfig = {
 };
 
 export const firebaseApp = firebase.initializeApp(firebaseConfig);
+export const eventsRef = firebase
+  .database()
+  .ref()
+  .child("events");
