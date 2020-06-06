@@ -1,4 +1,7 @@
 <template>
-  <div>Dashboard Component</div>
+  <div>
+    Dashboard Component
+    {{$store.state}}
+  </div>
 </template>
 
