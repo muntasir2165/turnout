@@ -5,6 +5,6 @@ import * as actions from "./actions";
 
 Vue.use(Vuex);
 
-const state = { user: {} };
+const state = { user: {}, events: [] };
 
 export default new Vuex.Store({ state, mutations, actions });
